@@ -1,5 +1,58 @@
-h1,
-p {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+th,
+td {
+  padding: 5px 15px;
+  text-align: center;
+}
+
+.tableWarningMsg {
+  color: red;
+}
+
+table input {
+  max-width: 100px;
+}
+
+button {
+  padding: 5px;
+  margin-right: 10px;
+  background-color: white;
+}
+
+.btn {
+  padding: 5px 10px;
+}
+
+form,
+.btn {
+  margin-top: 15px;
+}
+
+.input-block {
+  width: 500px;
+  padding-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrongPatternMsg {
+  color: red;
+  padding: 5px 10px;
+}
+
+.input-block input {
+  width: 300px;
+  height: 25px;
+}
+
+.input-block input[type=submit] {
+  width: auto;
+  height: auto;
+  padding: 5px 10px;
+  background-color: white;
 }
